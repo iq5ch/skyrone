@@ -4,12 +4,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    background: url(bg-login-mobile.jpg) no-repeat;
+    background-size: cover;
 }
 
-.img-header {
+/* .img-header {
     height: 50%;
     width: 100%;
-}
+} */
 
 .login-container {
     width: 100%;
@@ -17,9 +19,17 @@ body {
 }
 
 .login-box {
-    width: 90%;
-    margin-left: 5%;
-    color: gray;
+    background: rgba(0, 0, 0, 0.4);
+    border-color: skyblue;
+    border-radius: 8%;
+    border-style: solid;
+    width: 60%;
+    margin-left: 15%;
+    padding: 10%;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .login-box h1 {
@@ -27,6 +37,7 @@ body {
     font-size: 40px;
     border-bottom: 6px solid skyblue;
     margin-bottom: 50px;
+    margin-left: 35%;
     padding: 13px 0;
 }
 
@@ -68,12 +79,12 @@ body {
 }
 
 /* DESKTOP VERSION */
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
     body {
         margin: 0;
         padding: 0;
         font-family: sans-serif;
-        background: url(bg-login.JPG) no-repeat;
+        background: url(bg-login.jpg) no-repeat;
         background-size: cover;
     }
 
@@ -82,12 +93,17 @@ body {
     }
 
     .login-box {
-        width: 25%;
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.4);
+        border-color: skyblue;
+        border-radius: 8%;
+        border-style: solid;
         color: white;
+        width: 25%;
+        padding: 2.5%;
+        position: absolute;
+        left: 33%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .btn {
