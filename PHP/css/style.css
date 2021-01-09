@@ -1,0 +1,390 @@
+body {
+    background-color: #e3ecc2;
+}
+
+/* Navbar dkk */
+.nav-link,
+.navbar {
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: black !important;
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.logo-img {
+    object-fit: cover;
+    width: 30px;
+    margin: 0px 20px 0px 20px;
+}
+
+
+/* Landing page paling atas */
+.jumbotron {
+    background-image: url("C:/My/Programming/Web Development/Skyrone/PHP/bg2.png");
+    background-size: cover;
+    height: 300px;
+}
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.lead {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+
+/* Konten pertama  */
+.div-promo {
+    margin-bottom: 20px;
+    font-size: 1px;
+}
+.promo1{
+    color: #7287ae;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 8px;
+}
+.promo2{
+    color: #7287ae;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.konten-container  {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.isi-konten-satu {
+    background-color: white;
+    border-radius: 8%;
+    width: 70%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    position: relative;
+    left: 10%;
+    overflow: hidden;
+    transition: 1s;
+}
+.konten-container .isi-konten-satu:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0,0);
+}
+.img-1 {
+    border-radius: 10% 0 0 10%;
+    width: 50%;
+}
+.text-konten-satu-1 {
+    color: #7287ae;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7.5px;
+    position: relative;
+    display: inline-block;
+    left: 2%;
+    top: 6%;
+    width: 42%;
+    text-align: center;
+}
+.text-konten-satu-2 {
+    color: #7287ae;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7.5px;
+    position: relative;
+    display: inline-block;
+    left: 2%;
+    top: 13%;
+    width: 42%;
+    text-align: center;
+}
+.text-konten-satu-3 {
+    color: #7287ae;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7.5px;
+    position: relative;
+    display: inline-block;
+    left: 2%;
+    top: 15.5%;
+    width: 42%;
+    text-align: center;
+}
+.brand {
+    margin-top: 17px;
+}
+.brand-text {
+	background-color:#7287ae;
+	border-radius:28px;
+	border:1px solid #7287ae;
+	color:#ffffff !important;
+	font-family:'Montserrat', sans-serif;
+	font-size:10px;
+	padding:12px 24px;
+	text-decoration:none;
+    /* text-shadow:0px 1px 0px #2f6627; */
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/* Konten Kedua */
+.konten-kedua {
+    margin-top: 150px;
+}
+.isi-konten-dua {
+    background-color: white;
+    height: 50%;
+}
+.img-dua-1 {
+    width: 50%;
+}
+.img-dua-1-text {
+    margin-left: 1%;
+    width: 48%;
+}
+.img-dua-2-text {
+    padding: 0.8% 0;
+    width: 50%;
+}
+.img-dua-2 {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+/* Konten Ketiga */
+.konten-ketiga {
+    background-color: #7287ae;
+}
+.title-monetisasi {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+.isi-konten-tiga {
+    width: 100%;
+}
+.revenue, .service, .sparepart, .bigdata {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    margin: 2% 2% 5% 2%;
+    position: relative;
+    display: inline-block;
+}
+.img-revenue, .img-service {
+    width: 70%;
+    margin-bottom: 15%;
+}
+.img-sparepart, .img-bigdata {
+    width: 70%;
+    margin-bottom: 22%;
+}
+
+/* Konten Keempat */
+.konten-keempat {
+    background-image: url("C:/My/Programming/Web Development/Skyrone/PHP/img/konten4.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.isi-konten-empat {
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    padding: 5% 0;
+}
+.title-konten-4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.text-konten-4 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+}
+.btn-pesan {
+    background-color:#7287ae;
+	border-radius:28px;
+	border:1px solid #7287ae;
+	color:#ffffff !important;
+	font-family:'Montserrat', sans-serif;
+    font-size:10px;
+    font-weight: bold;
+	padding:6px 12px;
+	text-decoration:none;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+/* DESKTOP VERSION */
+@media (min-width: 840px) {
+
+    /* Navbar dkk */
+    .navbar-brand {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: white !important;
+    }
+    .nav-link,
+    .nav-bar {
+        margin-right: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: white !important;
+    }
+    .nav-link:hover::after {
+        content: ' ';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .logo-img {
+        object-fit: cover;
+        width: 60px;
+        margin: 0px 20px 0px 20px;
+    }
+
+
+    /* Landing page paling atas */
+    .jumbotron {
+        background-image: url("C:/My/Programming/Web Development/Skyrone/PHP/bg2.png");
+        background-size: cover;
+        height: 840px;
+        margin-top: -90px;
+        background-repeat: no-repeat;
+    }
+    .jumbotron .display-4 {
+        color: white;
+        text-align: center;
+        margin-top: 160px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 80px;
+    }
+    .lead {
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+    /* Konten pertama */
+    .div-promo {
+        margin-bottom: 20px;
+        font-size: 1px;
+    }
+    .promo1{
+        color: #7287ae;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .promo2{
+        color: #7287ae;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .konten-container {
+        height: 340px;
+    }
+    .isi-konten-satu {
+        background-color: white;
+        border-radius: 8%;
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        height: 200%;
+    }
+    .img-1 {
+        border-radius: 10% 10% 0 0;
+        width: 100%;
+        height: 50%;
+    }
+    .text-konten-satu-1,
+    .text-konten-satu-2,
+    .text-konten-satu-3 {
+        color: #7287ae;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        position: relative;
+        display: inline-block;
+        left: 10%;
+        top: 9%;
+        width: 80%;
+        text-align: center;
+    }
+    .brand {
+        margin-top: 370px;
+    }
+    .brand-text {
+        font-size:17px;
+        padding:16px 31px;
+    }
+
+    /* Konten Kedua */
+    .konten-kedua {
+        margin-top: 600px;
+    }
+
+    /* Konten Ketiga */
+    .title-monetisasi {
+        font-size: 45px;
+    }
+    .revenue, .service, .sparepart, .bigdata {
+        font-size: 24px;
+    }
+
+    /* Konten Keempat */
+    .konten-keempat {
+        height: 600px;
+    }
+    .title-konten-4 {
+        font-size: 48px;
+    }
+    .text-konten-4 {
+        font-size: 22px;
+    }
+    .btn-pesan {
+        font-size:24px;
+        font-weight: bold;
+        padding:12px 24px;
+        margin-top: 5%;
+    }
+}
