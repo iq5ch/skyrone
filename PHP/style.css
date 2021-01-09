@@ -24,7 +24,7 @@ body {
 
 /* Landing page paling atas */
 .jumbotron {
-    background-image: url("bg2.png");
+    background-image: url('bg2.png');
     background-size: cover;
     height: 300px;
 }
