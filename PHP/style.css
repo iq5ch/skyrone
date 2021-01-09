@@ -24,7 +24,7 @@ body {
 
 /* Landing page paling atas */
 .jumbotron {
-    background-image: url("C:/My/Programming/Web Development/Skyrone/PHP/bg2.png");
+    background-image: url("bg2.png");
     background-size: cover;
     height: 300px;
 }
@@ -202,7 +202,7 @@ body {
 
 /* Konten Keempat */
 .konten-keempat {
-    background-image: url("C:/My/Programming/Web Development/Skyrone/PHP/img/konten4.png");
+    background-image: url("konten4.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 200px;
@@ -282,7 +282,7 @@ body {
 
     /* Landing page paling atas */
     .jumbotron {
-        background-image: url("C:/My/Programming/Web Development/Skyrone/PHP/bg2.png");
+        background-image: url("bg2.png");
         background-size: cover;
         height: 840px;
         margin-top: -90px;
