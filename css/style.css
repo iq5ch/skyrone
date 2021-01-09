@@ -18,7 +18,6 @@ body {
 
 .login-box {
     width: 50%;
-    position: static;
     margin-left: 25%;
     color: gray;
 }
@@ -85,6 +84,7 @@ body {
     .login-box {
         width: 25%;
         position: absolute;
+        left: 10%;
         top: 50%;
         transform: translateY(-50%);
         color: white;
