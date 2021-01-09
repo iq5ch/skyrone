@@ -4,14 +4,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(bg-login-mobile.jpg) no-repeat;
-    background-size: cover;
 }
 
-/* .img-header {
+.img-header {
     height: 50%;
     width: 100%;
-} */
+}
 
 .login-container {
     width: 100%;
@@ -19,25 +17,18 @@ body {
 }
 
 .login-box {
-    background: rgba(0, 0, 0, 0.4);
-    border-color: skyblue;
-    border-radius: 8%;
-    border-style: solid;
     width: 60%;
-    margin-left: 15%;
+    margin-left: 10%;
     padding: 10%;
-    position: absolute;
-    left: 35%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .login-box h1 {
+    color: dimgray;
     float: left;
     font-size: 40px;
     border-bottom: 6px solid skyblue;
     margin-bottom: 50px;
-    margin-left: 35%;
+    margin-left: 33%;
     padding: 13px 0;
 }
 
@@ -101,7 +92,7 @@ body {
         width: 25%;
         padding: 2.5%;
         position: absolute;
-        left: 33%;
+        left: 38%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
