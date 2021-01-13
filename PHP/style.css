@@ -24,9 +24,9 @@ body {
 
 /* Landing page paling atas */
 .jumbotron {
-    background-image: url('bg2.png');
+    background-image: url("bg2.png");
     background-size: cover;
-    height: 300px;
+    height: 500px;
 }
 .jumbotron .display-4 {
     color: white;
@@ -202,17 +202,17 @@ body {
 
 /* Konten Keempat */
 .konten-keempat {
-    background-image: url("konten4.png");
+    background-image: url(" konten4.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 330px;
 }
 .isi-konten-empat {
     text-align: center;
     width: 80%;
     height: 100%;
     margin: 0 10%;
-    padding: 5% 0;
+    padding: 12% 0;
 }
 .title-konten-4 {
     color: white;
@@ -242,6 +242,33 @@ body {
     transform: translateX(-50%);
 }
 
+/* Konten Terakhir */
+.konten-terakhir{
+
+}
+.isi-konten-terakhir{
+    background-image: url("bgbawahh.png");
+    background-size: cover;
+    height: 1200px;
+    background-repeat: no-repeat;
+}
+.logo-ic-img{
+    width: 10%;
+    margin-bottom: 22%;
+}
+.logo-kemenag-img{
+    width: 10%;
+    margin-bottom: 22%;
+}
+.logo-xcamp-img{
+    width: 10%;
+    margin-bottom: 22%;
+}
+.logo-skyrone-img{
+    width: 10%;
+    margin-bottom: 22%;
+}
+
 
 
 
@@ -249,7 +276,7 @@ body {
 
 
 /* DESKTOP VERSION */
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
 
     /* Navbar dkk */
     .navbar-brand {
@@ -386,5 +413,9 @@ body {
         font-weight: bold;
         padding:12px 24px;
         margin-top: 5%;
+    }
+    .isi-konten-empat{
+        padding-bottom: 10px;
+        padding-top: 7%;
     }
 }
